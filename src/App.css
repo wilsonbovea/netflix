@@ -1,0 +1,35 @@
+body {
+  background-color: black;
+  color: white;
+  padding-left: 50px;
+  font-family: "Roboto", sans-serif;
+}
+
+h2 {
+  font-size: 20px;
+  line-height: 20px;
+}
+header img {
+  width: 105px;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.div-category {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.div-images {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: scroll;
+  scrollbar-width: none;
+}
+.div-images img {
+  max-height: 124px;
+  max-width: 220px;
+}
